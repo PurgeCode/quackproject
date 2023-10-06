@@ -1,143 +1,130 @@
 <!DOCTYPE html>
 <html lang="en">
-   <head>
-      <meta charset="UTF-8" />
-      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-      <link rel="stylesheet" href="./design/style.css" />
-      <title>Team Peking Pizza</title>
-   </head>
-   <body>
-      <div class="container">
-         <nav class="navbar">
-            <ul>
-               <li>The Peking <span>Pizza</span></li>
-            </ul>
-         </nav>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./design/style.css" />
+    <title>Team Peking Pizza</title>
+  </head>
+  <body>
+    <div class="container">
+      <nav class="navbar">
+        <ul>
+          <li>The Peking <span>Pizza</span></li>
+        </ul>
+      </nav>
 
-         <div class="content">
-            <div class="left-content">
-               <div class="image-pizza">
-                  <img src="./images/pizza.png" alt="" />
-               </div>
-               <div class="right-content">
-                  <h2>Pizza Options</h2>
-                  <p>
-                     A "Bacon Margherita" pizza is a delightful twist on the
-                     classic Margherita pizza, adding the savory goodness of
-                     bacon to the mix. Here's a simple recipe for a Bacon
-                     Margherita pizza: Tomatoes, basil, cheddar and mozzarella
-                     cheese topped with bacon and parmesan
-                  </p>
-                  <div class="option">
-                     <form action="">
-                        <label for="size">Select your Pizza Size:</label>
-                        <select name="size" id="size">
-                           <option value="small">Small</option>
-                           <option value="medium">Medium</option>
-                           <option value="large">Large</option>
-                        </select>
-                        <fieldset>
-                           <legend>Addons</legend>
-                           <div>
-                              <input
-                                 type="checkbox"
-                                 id="pepperoni"
-                                 name="pepperoni"
-                                 checked
-                              />
-                              <label for="pepperoni">Pepperoni</label>
-                           </div>
-
-                           <div>
-                              <input
-                                 type="checkbox"
-                                 id="cheese"
-                                 name="cheese"
-                              />
-                              <label for="cheese">Extra Cheese</label>
-                           </div>
-                        </fieldset>
-                        <p class="tagline">
-                           "Satisfy your cravings with <br />
-                           a slice of <span>Peking</span> perfection!"
-                        </p>
-                        <!-- <button>Submit</button> -->
-                     </form>
+      <div class="content">
+        <div class="left-content">
+          <div class="image-pizza">
+            <img src="./images/pizza.png" alt="" />
+          </div>
+          <div class="right-content">
+            <h2>Pizza Options</h2>
+            <p>
+              A "Bacon Margherita" pizza is a delightful twist on the classic
+              Margherita pizza, adding the savory goodness of bacon to the mix.
+              Here's a simple recipe for a Bacon Margherita pizza: Tomatoes,
+              basil, cheddar and mozzarella cheese topped with bacon and
+              parmesan
+            </p>
+            <div class="option">
+              <form action="">
+                <label for="size">Select your Pizza Size:</label>
+                <select name="size" id="size">
+                  <option value="small">Small</option>
+                  <option value="medium">Medium</option>
+                  <option value="large">Large</option>
+                </select>
+                <fieldset>
+                  <legend>Addons</legend>
+                  <div>
+                    <input
+                      type="checkbox"
+                      id="pepperoni"
+                      name="pepperoni"
+                      checked />
+                    <label for="pepperoni">Pepperoni</label>
                   </div>
-               </div>
-            </div>
-            <div class="right-option">
-               <h2>Order Summary</h2>
-               <div class="total">
-                  <div class="total-bill">
-                     <table>
-                        <tr>
-                           <td class="bold">Size:</td>
-                           <td>Small</td>
-                        </tr>
-                        <tr>
-                           <td class="bold">Price:</td>
-                           <td>1Million</td>
-                        </tr>
-                        <tr>
-                           <td class="bold">Addons:</td>
-                           <td>1Million</td>
-                        </tr>
-                     </table>
-                     <fieldset>
-                        <legend>Order Type</legend>
 
-                        <div>
-                           <input
-                              type="radio"
-                              id="dine-in"
-                              name="drone"
-                              value="dine-in"
-                              checked
-                           />
-                           <label for="dine-in">Dine In</label>
-                        </div>
-
-                        <div>
-                           <input
-                              type="radio"
-                              id="takeout"
-                              name="drone"
-                              value="takeout"
-                           />
-                           <label for="takeout">Take Out</label>
-                        </div>
-
-                        <div>
-                           <input
-                              type="radio"
-                              id="delivery"
-                              name="drone"
-                              value="delivery"
-                           />
-                           <label for="delivery">Delivery</label>
-                        </div>
-                        <div>
-                           <input
-                              type="radio"
-                              id="pickup"
-                              name="drone"
-                              value="pickup"
-                           />
-                           <label for="pickup">Pick Up</label>
-                        </div>
-                     </fieldset>
-                     <table class="bills">
-                        <tr>
-                           <td class="bold">Total Bill:</td>
-                           <td>Bills</td>
-                        </tr>
-                     </table>
-                     <div class="button"><button>Checkout</button></div>
+                  <div>
+                    <input type="checkbox" id="cheese" name="cheese" />
+                    <label for="cheese">Extra Cheese</label>
                   </div>
-               </div>
+                </fieldset>
+                <p class="tagline">
+                  "Satisfy your cravings with <br />
+                  a slice of <span>Peking</span> perfection!"
+                </p>
+                <!-- <button>Submit</button>--->
+              </form>
             </div>
-         </div>
+          </div>
+        </div>
+        <div class="right-option">
+          <h2>Order Summary</h2>
+          <div class="total">
+            <div class="total-bill">
+              <table>
+                <tr>
+                  <td class="bold">Size:</td>
+                  <td>Small</td>
+                </tr>
+                <tr>
+                  <td class="bold">Price:</td>
+                  <td>1Million</td>
+                </tr>
+                <tr>
+                  <td class="bold">Addons:</td>
+                  <td>1Million</td>
+                </tr>
+              </table>
+              <fieldset>
+                <legend>Order Type</legend>
+
+                <div>
+                  <input
+                    type="radio"
+                    id="dine-in"
+                    name="drone"
+                    value="dine-in"
+                    checked />
+                  <label for="dine-in">Dine In</label>
+                </div>
+
+                <div>
+                  <input
+                    type="radio"
+                    id="takeout"
+                    name="drone"
+                    value="takeout" />
+                  <label for="takeout">Take Out</label>
+                </div>
+
+                <div>
+                  <input
+                    type="radio"
+                    id="delivery"
+                    name="drone"
+                    value="delivery" />
+                  <label for="delivery">Delivery</label>
+                </div>
+                <div>
+                  <input type="radio" id="pickup" name="drone" value="pickup" />
+                  <label for="pickup">Pick Up</label>
+                </div>
+              </fieldset>
+              <table class="bills">
+                <tr>
+                  <td class="bold">Total Bill:</td>
+                  <td>Bills</td>
+                </tr>
+              </table>
+              <div class="button"><button>Checkout</button></div>
+            </div>
+          </div>
+        </div>
       </div>
-   </body>
+    </div>
+  </body>
 </html>
