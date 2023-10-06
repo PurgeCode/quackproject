@@ -25,8 +25,16 @@ selectElement.addEventListener("change", (event) => {
   result.textContent = event.target.value;
 });
 
-if (selectElement.value === "small") {
-  document.querySelector(".priceOutput").value = 22;
+if (selectElement.value === 15) {
+  let priceSmall = 15;
+  console.log(priceSmall);
+  document.querySelector(".sizeOutput").value = "Small";
+} else if (selectElement.value === 20) {
+  let priceMedium = 20;
+  console.log(priceMedium);
+  document.querySelector(".sizeOutput").innerHTML = "Medium";
+} else if (selectElement.value === 25) {
+  let priceLarge = 25;
+  document.querySelector(".sizeOutput").innerHTML = "Large";
+  document.getElementById("priceOutput").innerHTML = "25";
 }
-
-console.log(selectElement.value);
