@@ -238,7 +238,7 @@
 .total-bill .bills {
    margin-top: 10px;
 }
-/* Responsiveness ---*/
+/* Responsiveness -----*/
 
 @media screen and (max-width: 1920px) and (min-width: 1254px) {
    .container {
